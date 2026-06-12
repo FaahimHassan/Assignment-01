@@ -1,0 +1,285 @@
+/* shared */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: #FFFFFF;
+}
+.btn{
+    background-color: #469165;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight:500;
+    border-radius: 5px;
+    color:white;
+}
+/* fixed*/
+nav{
+    /* width: 71%; */
+    max-width: 1600px;
+    margin: auto;
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#banner{
+    /* border: 1px solid red; */
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    background: url(assets/hero-bg.png),#FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 116px 120px 180px;
+}
+#banner .banner-content h5{
+    
+    /* font-size: 70px;
+
+    width: 230px;
+    height: 35px;
+    padding: 8px 12px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight:normal;
+    color: #469165; */
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #276941;
+
+    margin-bottom: 51px;
+
+}
+#banner .banner-content{
+   max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+}
+#banner .banner-content h1{
+     /* width: 71%;
+    max-width: 770px;
+    text-align: center;
+    margin: 51px 295px 75px 295px;
+    font-size: 50px;
+    
+    font-weight: 700; */
+    max-width: 770px;
+    margin: 0 auto 24px;
+
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#banner .banner-content h1 .white{
+    color: #FFFFFF;
+     display: block;
+}
+#banner .banner-content h1 .green{
+    color: #30B868;
+    display: block;
+  
+}
+#banner .banner-content p {
+    /* width: 71%;
+    max-width: 1360px; */
+    /* font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 16px; */
+    max-width: 1360px;
+   height: 10px;
+    margin: 0 auto 32px;
+
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+     
+}
+#banner .banner-content div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#notes{
+    background-color: #FFFFFF;
+    /* padding-top: 40px; */
+    padding: 40px 120px 80px;
+}
+#notes .notes-container{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+#notes .notes-container .notes-heading{
+    /* max-width: 1360px; */
+    text-align: center;
+    /* margin: 0 auto; */
+}
+#notes .notes-container .notes-heading p{
+    /* padding-top: 16px; */
+    font-size: 16px;
+    color: #627382;
+    /* --Polishing-- */
+     margin-top: 16px;
+     line-height: 24px;
+}
+#notes .notes-container .notes-heading h2{
+    font-size: 48px;
+    /* ---polished-- */
+    line-height: 58px;
+    font-weight: 700;
+    color: #001931;
+}
+#notes .notes-container .notes-box{
+    display: flex;
+    gap: 24px;
+    padding-top: 44px;
+}
+.notes-box .notes-card{
+    /* max-width: 320PX; */
+    /* padding: 24px; */
+    /* border: 1px solid red; */
+    box-shadow: 0px 4px 4px 0 #00000042;
+    /* ---polishing-- */
+    flex: 1;
+    padding: 70px 24px 46px;
+    text-align: center;
+    background-color: #FFFFFF;
+    
+}
+.notes-box .notes-card img{
+   width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 16px;
+
+}
+.notes-box .notes-card h4{
+    max-width: 274px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 30px;
+    color: #001931;
+}
+.notes-box .notes-card p{
+     font-size: 16px;
+    color: #627382;
+}
+#solution{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 120px auto;
+    width: 100%;
+    max-width: 1360px;
+    gap: 60px;
+}
+#solution .solution-image{
+    width: 100%;
+    max-width: 600px;
+}
+#solution .solution-note{
+    margin: 102px 0px 102px 0px;
+    
+}
+#solution .solution-note h6{
+    font-size: 16px;
+    color: #469165;
+    font-weight: normal;
+    padding-bottom: 16px;
+} 
+#solution .solution-note h1{
+    font-size: 48px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#solution .solution-note p{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 40px;
+}
+.point-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.solution-point{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.solution-point h5{
+    color: #001931;
+    font-weight: 600;
+}
+#Access{
+    background-color: #F7F6F2;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.Access-heading{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#Access p{
+    text-align: center;
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+#Access .Access-button{
+   text-align: center;
+}
+#Access .Access-list{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    list-style-type: none;
+  
+    justify-content: center;
+    margin: 16px auto 0;
+    padding-bottom: 80px;
+    gap: 8px;
+}
