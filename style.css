@@ -31,9 +31,10 @@ header{
     color: white;
     cursor: pointer;
 }
+
 /* fixed*/
 nav{
-    /* width: 71%; */
+   
     max-width: 1600px;
     margin: auto;
     padding: 16px 120px;
