@@ -55,7 +55,7 @@ nav .menu a{
 }
 
 #banner{
-    /* border: 1px solid red; */
+ 
     margin: 0;
     align-items: center;
     text-align: center;
@@ -67,17 +67,7 @@ nav .menu a{
 }
 #banner .banner-content h5{
     
-    /* font-size: 70px;
-
-    width: 230px;
-    height: 35px;
-    padding: 8px 12px;
-    margin: auto;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-    font-size: 16px;
-    font-weight:normal;
-    color: #469165; */
+   
     display: inline-block;
     padding: 8px 18px;
     border-radius: 1000px;
@@ -97,13 +87,7 @@ nav .menu a{
     margin: 0 auto;
 }
 #banner .banner-content h1{
-     /* width: 71%;
-    max-width: 770px;
-    text-align: center;
-    margin: 51px 295px 75px 295px;
-    font-size: 50px;
-    
-    font-weight: 700; */
+     
     max-width: 770px;
     margin: 0 auto 24px;
 
@@ -123,12 +107,7 @@ nav .menu a{
   
 }
 #banner .banner-content p {
-    /* width: 71%;
-    max-width: 1360px; */
-    /* font-size: 18px;
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 16px; */
+  
     max-width: 1360px;
    height: 10px;
     margin: 0 auto 32px;
@@ -149,7 +128,7 @@ nav .menu a{
 
 #notes{
     background-color: #FFFFFF;
-    /* padding-top: 40px; */
+  
     padding: 40px 120px 80px;
 }
 #notes .notes-container{
@@ -158,21 +137,21 @@ nav .menu a{
     margin: 0 auto;
 }
 #notes .notes-container .notes-heading{
-    /* max-width: 1360px; */
+  
     text-align: center;
-    /* margin: 0 auto; */
+    
 }
 #notes .notes-container .notes-heading p{
-    /* padding-top: 16px; */
+    
     font-size: 16px;
     color: #627382;
-    /* --Polishing-- */
+   
      margin-top: 16px;
      line-height: 24px;
 }
 #notes .notes-container .notes-heading h2{
     font-size: 48px;
-    /* ---polished-- */
+    
     line-height: 58px;
     font-weight: 700;
     color: #001931;
@@ -183,11 +162,9 @@ nav .menu a{
     padding-top: 44px;
 }
 .notes-box .notes-card{
-    /* max-width: 320PX; */
-    /* padding: 24px; */
-    /* border: 1px solid red; */
+    
     box-shadow: 0px 4px 4px 0 #00000042;
-    /* ---polishing-- */
+   
     flex: 1;
     padding: 70px 24px 46px;
     text-align: center;
