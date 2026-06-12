@@ -283,3 +283,36 @@ nav .menu a{
     padding-bottom: 80px;
     gap: 8px;
 }
+
+#footer{
+    background-color: #001931;
+    width: 100%;
+    max-width: 1600px;
+}
+.footer-assets{
+    padding:120px 120px 80px 120px ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-assets h5{
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.footer-assets .footer-link{
+    display: flex;
+    gap: 16px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+#footer .copyright{
+   width: 100%;
+   max-width: 1360px;
+   margin: 0 auto;
+    
+}
+#footer .copyright p{
+     color: #FAFAFA;
+     text-align: center;
+     padding-bottom: 30px;
+}
