@@ -21,6 +21,9 @@ header{
     color:white;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: #35754f;
+}
 .transparent-btn{
     background-color: transparent;
     border: 1px solid white;
@@ -31,7 +34,10 @@ header{
     color: white;
     cursor: pointer;
 }
-
+.transparent-btn:hover{
+    background-color: #FFFFFF;
+    color: #001931;
+}
 /* fixed*/
 nav{
    
